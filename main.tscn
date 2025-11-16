@@ -30,8 +30,8 @@ environment = SubResource("Environment_1bvp3")
 
 [node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=168774309]
 use_collision = true
-size = Vector3(50, 0.5, 50)
+size = Vector3(30, 1, 30)
 material = SubResource("StandardMaterial3D_ig7tw")
 
 [node name="Character" parent="." unique_id=1768463898 instance=ExtResource("2_0xm2m")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.98367596, 2.5842326, -0.46278673)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.98367596, 1.2843373, -0.46278673)
