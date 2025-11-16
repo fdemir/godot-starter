@@ -19,19 +19,19 @@ tonemap_mode = 2
 albedo_texture = ExtResource("1_ig7tw")
 uv1_triplanar = true
 
-[node name="Node3D" type="Node3D"]
+[node name="Node3D" type="Node3D" unique_id=637228413]
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1738215687]
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
 shadow_enabled = true
 
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=726325182]
 environment = SubResource("Environment_1bvp3")
 
-[node name="CSGBox3D" type="CSGBox3D" parent="."]
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=168774309]
 use_collision = true
 size = Vector3(50, 0.5, 50)
 material = SubResource("StandardMaterial3D_ig7tw")
 
-[node name="Character" parent="." instance=ExtResource("2_0xm2m")]
+[node name="Character" parent="." unique_id=1768463898 instance=ExtResource("2_0xm2m")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.98367596, 2.5842326, -0.46278673)
