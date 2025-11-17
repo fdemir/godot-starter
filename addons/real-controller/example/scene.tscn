@@ -56,4 +56,4 @@ size = Vector3(2, 0.56152344, 7.5994873)
 material = SubResource("StandardMaterial3D_l2f18")
 
 [node name="Character5" parent="." unique_id=1913778194 instance=ExtResource("1_l2f18")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9710369, 1.5500002, -0.56999636)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9710369, 1.7979168, -1.4615719)
