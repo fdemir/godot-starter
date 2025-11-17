@@ -53,6 +53,14 @@ The controller exposes several export variables for customization:
 
 Animations and the Mesh are from the [Basic Motions Free](https://kevdev.itch.io/basic-motions-free).
 
+
+## Todo
+
+- [ ] Adding new animations from mixamo guide
+- [ ] Change mesh guide
+- [ ] Walk
+- [ ] Crouch
+
 ## License
 
 MIT License - See [LICENCE](LICENCE) file for details.
