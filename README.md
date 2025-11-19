@@ -39,6 +39,7 @@ The controller requires the following input actions to be configured in your pro
 | `right` | D 	
 | `jump` | Space 	
 | `sprint` | Left Shift 	
+| `walk` | Left Alt
 
 > **Note**: These input mappings are required for the controller to function properly. Make sure all actions are configured before running the scene.
 
@@ -60,7 +61,7 @@ Animations and the Mesh are from the [Basic Motions Free](https://kevdev.itch.io
 
 - [ ] Adding new animations from mixamo guide
 - [ ] Change mesh guide
-- [ ] Walk
+- [x] Walk
 - [ ] Crouch
 
 ## License

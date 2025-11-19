@@ -22,6 +22,7 @@ extends CharacterBody3D
 @export_range(0.1, 30.0, 0.1, "or_greater") var sprint_speed: float = 8.0
 ## Vertical velocity applied when jumping.
 @export_range(1.0, 20.0, 0.1) var jump_velocity: float = 4.5
+@export var can_walk: bool = true
 
 ## Camera Settings
 ## -----------------------------------------------------------------------------
@@ -79,12 +80,12 @@ func _handle_character_rotation(delta: float) -> void:
 func _apply_movement() -> void:
 	var is_moving = input_dir != Vector2.ZERO and is_on_floor()
 	is_sprinting = Input.is_action_pressed("sprint") and is_moving and not Input.is_action_pressed("walk")
-	is_walking = Input.is_action_pressed("walk") and is_moving and not Input.is_action_pressed("sprint")
+	is_walking = Input.is_action_pressed("walk") and is_moving and not Input.is_action_pressed("sprint") and can_walk
 	
 	var current_speed: float
 	if is_sprinting:
 		current_speed = sprint_speed
-	elif is_walking:
+	elif is_walking and can_walk:
 		current_speed = walk_speed
 	else:
 		current_speed = speed
