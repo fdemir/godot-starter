@@ -24,6 +24,9 @@ Can be found on the [Store](https://store-beta.godotengine.org/asset/furkan-demi
 
 ## Setup
 
+How to change the character model? - Real Controller | Godot 4.6 - [Youtube Video](https://www.youtube.com/watch?v=2XPNGCYdZDw)
+
+
 ### Input Map Configuration
 
 The controller requires the following input actions to be configured in your project:
@@ -60,7 +63,7 @@ Animations and the Mesh are from the [Basic Motions Free](https://kevdev.itch.io
 ## Todo
 
 - [ ] Adding new animations from mixamo guide
-- [ ] Change mesh guide
+- [x] Change mesh guide
 - [x] Walk
 - [ ] Crouch
 
